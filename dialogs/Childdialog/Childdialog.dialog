@@ -37,20 +37,6 @@
             "id": "SoqxOX"
           },
           "activity": "${SendActivity_SoqxOX()}"
-        },
-        {
-          "$kind": "Microsoft.TextInput",
-          "$designer": {
-            "id": "z8hVE0"
-          },
-          "disabled": false,
-          "maxTurnCount": 3,
-          "alwaysPrompt": false,
-          "allowInterruptions": false,
-          "prompt": "",
-          "unrecognizedPrompt": "",
-          "invalidPrompt": "",
-          "defaultValueResponse": ""
         }
       ]
     },
@@ -68,6 +54,12 @@
             "id": "Btkmb1"
           },
           "activity": "${SendActivity_Btkmb1()}"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "xIhvFz"
+          }
         }
       ]
     }
